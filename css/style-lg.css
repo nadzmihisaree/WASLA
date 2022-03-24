@@ -1,6 +1,10 @@
 @media (max-width: 991.98px) {
-    
+    .pl-pr-10 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (min-width: 992px) {
+    
 }
