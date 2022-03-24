@@ -43,15 +43,11 @@ var swiper2 = new Swiper(".mySwiper2", {
 
 // home-page-events-swiper-----------------
 var swiper3 = new Swiper(".mySwiper3", {
-  slidesPerView: 3,
+  slidesPerView: 1.5,
   spaceBetween: 30,
-  slidesPerGroup: 3,
-  // loop: true,
-  loopFillGroupWithBlank: true,
-  pagination: {
-    el: ".BPAG3",
-    clickable: true,
-  },
+  // slidesPerGroup: 3,
+  loop: true,
+  // loopFillGroupWithBlank: true,
   navigation: {
     nextEl: ".BN3",
     prevEl: ".BP3",
