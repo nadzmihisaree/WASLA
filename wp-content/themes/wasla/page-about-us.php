@@ -21,7 +21,7 @@ get_header(); ?>
 <!-- Section - 02 (Who We Are) -->
 <section style="padding-top: clamp(50px,7vw,88px);padding-bottom: clamp(50px,7vw,78px);">
     <div class="row m-0">
-        <div class="col" style="padding-left: clamp(50px,7vw,92px);padding-right: clamp(50px,7vw,85px);">
+        <div class="col-sm" style="padding-left: clamp(50px,7vw,92px);padding-right: clamp(50px,7vw,85px);">
             <p class="fs-40 fw-600" style="color: #373634;">Who We Are</p>
             <p class="fs-15" style="color: #413e39; text-align:justify">Donec non purus consequat, congue sem id, commodo metus. Proin egestas, elit id elementum tempor, mi sapien accumsan odio, a elementum dui nunc in lacus. Duis dolor sapien, convallis vel elit in, pellentesque gravida risus. Duis a nisl urna. Sed ut tortor at metus pellentesque varius a in tellus. Nullam eleifend feugiat finibus. Aliquam eu diam a arcu interdum faucibus. Mauris dapibus lobortis dapibus. Integer mollis ipsum tortor. Suspendisse potenti. Aliquam hendrerit eros eget dui blandit, sodales facilisis massa faucibus. Nulla facilisi.
                 <br><br>
@@ -30,7 +30,7 @@ get_header(); ?>
                 Mauris vel nibh vel felis rutrum tempus. Vivamus ac est erat. Donec nisi orci, porta eu pulvinar nec, commodo et lorem. Nam egestas tempor viverra. Integer vitae eleifend metus. Ut nibh urna, lobortis eget tellus at, hendrerit semper est. Donec ultricies, arcu.
             </p>
         </div>
-        <div class="col p-0">
+        <div class="col-sm p-0">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/about1.png" class="about1" alt="">
         </div>
     </div>
@@ -39,7 +39,7 @@ get_header(); ?>
 <!--/ Section - 02 (Who We Are) -->
 
 <!-- Section - 03 (Our Vision) -->
-<section class="py-5" style="background-color: rgba(196, 196, 196, 0.09);    padding-left: clamp(50px,32vw,475px); padding-right: clamp(50px,32vw,475px);">
+<section class="py-5 mx-auto" style="background-color: rgba(196, 196, 196, 0.09);max-width: 649px;">
     <p class="fs-40 fw-600" style="color: #373634;text-align: center;">Our Vision</p>
     <p class="fs-20 mb-5" style="color: #413e39;; font-family: 'Paprika', cursive; text-align: center;">Nulla feugiat auctor elit vitae vehicula. Nunc sit amet sapien at neque accumsan commodo sit amet a odio. Fusce vitae elit ornare, maximus odio sit amet</p>
 
@@ -51,7 +51,7 @@ get_header(); ?>
 
 
 <!-- Section - 04 (swiper) -->
-<section style="padding-left: clamp(50px,17vw,213px);padding-right: clamp(50px,17vw,213px);padding-top: clamp(50px,8vw,121px);padding-bottom: clamp(50px,8vw,121px);">
+<section class="container px-5" style=" padding-top: clamp(50px,8vw,121px);padding-bottom: clamp(50px,8vw,121px);">
 
     <p class="fs-30 fw-600 mb-5" style="color: #373634;">Our Management</p>
 
@@ -147,42 +147,42 @@ get_header(); ?>
 
 <!-- Section - 07 (Clients)  -->
 <section class="py-5" style="background: url('<?php bloginfo('template_directory'); ?>/assets/images/group47.png') center center no-repeat">
-    <p class="fs-30 fw-600 px-lg-5" style="color: #fff;">Our Partners and Clients</p>
+    <p class="fs-30 fw-600 px-lg-5 ps-md-4 ps-3" style="color: #fff;">Our Partners and Clients</p>
     <div class="row m-0" style="padding-left: clamp(50px,7vw,88px) ; padding-right: clamp(50px,7vw,88px) ; ">
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
     </div>

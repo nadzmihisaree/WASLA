@@ -82,17 +82,24 @@ $(function () {
 
 // news & events swiper----------------
 var swiper4 = new Swiper(".mySwiper4", {
-    slidesPerView: 3,
+    slidesPerView: 'auto',
     spaceBetween: 30,
     navigation: {
         nextEl: ".BN4",
         prevEl: ".BP4",
     },
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+       
+    }
 });
       
 // about us swiper------------------
 var swiper5 = new Swiper(".mySwiper5", {
-    slidesPerView: 3,
+    slidesPerView: 'auto',
     spaceBetween: 80,
     pagination: {
       el: ".BPAG5",
@@ -102,4 +109,11 @@ var swiper5 = new Swiper(".mySwiper5", {
         nextEl: ".BN5",
         prevEl: ".BP5",
     },
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+       
+    }
   });

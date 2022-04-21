@@ -1,9 +1,17 @@
 @media (max-width: 767.98px) {
+  
+   
 }
 
 @media (min-width: 768px) {
-    
+
 }
 
 @media (min-width: 769px) {
+    .news-event-para1{
+        padding-left: 130px;
+    }
+    .news-event-pic2{
+        padding-left: 80px;
+    }
 }

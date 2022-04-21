@@ -7,7 +7,7 @@
  */
 get_header(); ?>
 
-<div class="news-article" style=" max-width: 892px; margin-left: clamp(50px,21vw,292px);padding-bottom: clamp(50px,14vw,212px); padding-top: clamp(20px,4vw,68px);">
+<div class=" row news-article mx-auto" style=" max-width: 892px;padding-bottom: clamp(50px,14vw,212px); padding-top: clamp(20px,4vw,68px);">
 
     <!-- Section - 01 (head) -->
     <p class="fs-35 fw-600 mb-4" style="color: #484848;">Mauris facilisis libero 50 hendrerit ipsum primis in faucibus..</p>

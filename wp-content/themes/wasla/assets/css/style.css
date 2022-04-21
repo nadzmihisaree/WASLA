@@ -1,7 +1,13 @@
 p, a {
     font-family: 'Poppins', sans-serif;
 }
-
+.pr-d{
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    
+}
+.pl-d{
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+}
 body {
     margin-top: clamp(20px, 10vw, 113px);
 }
@@ -269,7 +275,7 @@ body {
     display: block;
     /* width: 382.8px; */
     width: 100%;
-    /* height: 518px; */
+    height: 100%;
     object-fit: cover;
 }
 
@@ -316,6 +322,7 @@ body {
 .client-img{
     width: 160px;
     height: 169px;
+    object-fit: contain;
 }
 .banner{
     height: 535px;
@@ -356,11 +363,13 @@ body {
     width: 621px;
     height: 425px;
     border-radius: 3px;
+    object-fit: cover;
 }
 .news-event-img2{
     width: 441px;
     height: 313px;
     border-radius: 3px;
+    object-fit: cover;
 }
 .mySwiper4 .swiper-slide img {
     width: 100%;
@@ -371,6 +380,7 @@ body {
     width: 892px;
   height: 618px;
   border-radius: 3px;
+  object-fit: cover;
 }
 .about1{
     width: 774px;
@@ -413,4 +423,26 @@ body {
   width: 393px;
   height: 2px !important;
   background-color: rgba(255, 209, 90, 0.63);
+}
+.form-input{
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: rgba(196, 196, 196, 0.28);
+}
+.contact-inner-white{
+    max-width: 798px;
+    border-radius: 9px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    margin-top: clamp(50px,7vw,85px);
+} 
+.submit-btn{
+    width: 134px;
+  height: 47px;
+  padding: 12px 37px 11px;
+  border-radius: 4.9px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #e7c96f;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
 }

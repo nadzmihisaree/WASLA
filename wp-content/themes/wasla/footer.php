@@ -16,24 +16,24 @@
      </div>
 
      <div class="row footer-row">
-         <div class="col-lg-3 d-flex">
+         <div class="col-lg-3 d-flex py-lg-0 py-4">
              <img src="<?php bloginfo('template_directory'); ?>/assets/images/building.png" class="footer-img" />
              <p class="footer-p3 fw-500 fs-18" style="width: 192px">
                  No 08, placerat nulla rhoncus posuere
              </p>
          </div>
-         <div class="col-lg-3 d-flex">
+         <div class="col-lg-3 d-flex py-lg-0 py-4">
              <img src="<?php bloginfo('template_directory'); ?>/assets/images/4n.png" class="footer-img" />
              <div>
                  <p class="footer-p3 fw-500 fs-18 m-0">+94 77 88 93 465</p>
                  <p class="footer-p3 fw-500 fs-18 m-0">+94 77 88 93 465</p>
              </div>
          </div>
-         <div class="col-lg-3 d-flex">
+         <div class="col-lg-3 d-flex py-lg-0 py-4">
              <img src="<?php bloginfo('template_directory'); ?>/assets/images/mail.png" class="footer-img" />
              <p class="footer-p3 fw-500 fs-18 m-0">wasla@gmail.com</p>
          </div>
-         <div class="col-lg-3">
+         <div class="col-lg-3 py-lg-0 py-4">
              <p class="footer-p fs-25 fw-600">Mission</p>
              <p class="footer-p3 fw-500 fs-18 m-0">
                  Proin aliquet fermentum lacinia. Morbi in ex sit amet tortor auctor aliquet.

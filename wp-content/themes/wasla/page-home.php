@@ -59,10 +59,10 @@ get_header(); ?>
             </p>
             <a href="" style="text-decoration: none;">
                 <p class="fs-18 fw-600 m-0" style="color: #5d5d5d; text-align: end;">
-                Read More <img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow.svg" alt="" />
+                    Read More <img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow.svg" alt="" />
                 </p>
             </a>
-            
+
         </div>
     </div>
 </section>
@@ -239,7 +239,7 @@ get_header(); ?>
                             <p class="col-6">Phasellus quis justo viverra.</p>
                         </div>
 
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center mb-lg-0 mb-5 me-4 mt-5">
                             <a class="me-5" href="#">
                                 <button class="nav-butt" style="width: 200px">
                                     More Details
@@ -310,8 +310,8 @@ get_header(); ?>
 <!-- Section - 06 (Gallery)  -->
 <section>
     <p class="fs-30 fw-600 py-5 px-3 px-lg-5" style="color: #403c34">Gallery</p>
-    <div class="row m-0 px-5">
-        <div class="col-6 px-0 pe-3 position-relative">
+    <div class="row m-0 px-sm-5">
+        <div class="col-12 col-sm-6 px-0 pe-sm-3 position-relative mb-4 mb-lg-0 px-0 mb-md-0">
             <div class="gallery-overlay"></div>
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/group42.png" class="gallery-img" alt="" />
             <div class="row position-absolute bottom-0 w-100 px-3">
@@ -326,7 +326,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <div class="col-6 px-0 ps-3 position-relative">
+        <div class="col-12 col-sm-6 px-0 ps-sm-3 position-relative">
             <div class="gallery-overlay"></div>
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/group41.png" class="gallery-img" alt="" />
             <div class="row position-absolute bottom-0 w-100 px-3">
@@ -346,31 +346,32 @@ get_header(); ?>
 <!--/ Section - 06 (Gallery)  -->
 
 <!-- Section - 07 (News & Updates)  -->
-<section style=" padding-bottom: clamp(50px,15vw,211px);">
-    <div class="row m-0" style="padding-top: clamp(50px,10vw,137px);">
+<section class="overflow-hidden" style="padding-bottom: clamp(50px,15vw,211px);">
+    <div class="row pb-5 align-items-center" style="padding-top: clamp(50px,10vw,137px);">
         <div class="col">
-            <p class="fs-30 fw-600 px-3 px-lg-5 pb-5" style="color: #403c34; ">News & Updates</p>
+            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">News & Updates</p>
         </div>
         <div class="col-auto px-5">
             <p class="fs-14" style="color: #4e4d4c;">View News <img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow-white.svg" alt=""></p>
         </div>
     </div>
 
-    <div class="row m-0 px-5">
-        <div class="col-5 px-0 pe-3 position-relative">
-            <div class="gallery-overlay"></div>
-            <img src="<?php bloginfo('template_directory'); ?>/assets/images/group46.png" class="news-img" alt="" />
-            <div class="position-absolute top-0 w-100 px-3">
+    <div class="row px-sm-5">
+        <div class="col-12 col-sm-5 pe-sm-3 position-relative mb-4 mb-lg-0">
+            <div class="position-relative">
+                <div class="gallery-overlay w-100"></div>
+                <img src="<?php bloginfo('template_directory'); ?>/assets/images/group46.png" class="news-img" alt="" />
+            </div>
+            <div class="position-absolute top-0 px-3">
                 <p class="fs-13 fw-600 pt-4" style="color: #fff;">07/6/2021</p>
             </div>
-            <div class="position-absolute bottom-0 w-100 px-3">
+            <div class="position-absolute bottom-0 px-3">
                 <p class="fs-20 fw-500" style="color: #fff;">Pellentesque a ipsum placerat nulla rhoncus posuere sed eget leo</p>
                 <p class="fs-15 fw-500" style="color: #efefef;">lacinia vel orci non tincidunt. Suspendisse sagittis lobortis nisi sit amet pulvinar. Sed non nisi quis mi pretium tristique. lacinia vel orci non tincidunt.</p>
-
             </div>
         </div>
 
-        <div class="col  position-relative">
+        <div class="col-sm  position-relative mb-4 mb-lg-0">
 
             <div class=" position-relative mb-4">
                 <div class="gallery-overlay w-100"></div>
@@ -379,8 +380,7 @@ get_header(); ?>
                     <p class="fs-13 fw-600 pt-4" style="color: #fff;">23/04/2021</p>
                 </div>
                 <div class="position-absolute bottom-0 w-100 px-3">
-                    <p class="fs-20 fw-500" style="color: #fff;">congue erat. Mauris sit amet </p>
-
+                    <p class="fs-20 fw-500" style="color: #fff;">congue erat. Mauris sit amet</p>
                 </div>
 
             </div>
@@ -400,13 +400,16 @@ get_header(); ?>
 
         </div>
 
-        <div class="col px-0 ps-3 position-relative">
-            <div class="gallery-overlay"></div>
-            <img src="<?php bloginfo('template_directory'); ?>/assets/images/group43.png" class="news-img" alt="" />
-            <div class="position-absolute top-0 w-100 px-3">
+        <div class="col-sm ps-sm-3 position-relative">
+            <div class="position-relative">
+                <div class="gallery-overlay w-100"></div>
+                <img src="<?php bloginfo('template_directory'); ?>/assets/images/group43.png" class="news-img" alt="" />
+            </div>
+
+            <div class="position-absolute top-0 px-3">
                 <p class="fs-13 fw-600 pt-4" style="color: #fff;">23/04/2021</p>
             </div>
-            <div class="position-absolute bottom-0 w-100 px-3">
+            <div class="position-absolute bottom-0 px-3">
                 <p class="fs-20 fw-500" style="color: #fff;">Nullam posuere risus metus finibus ultricies. Sed sagittis velit a ipsum feugiat. </p>
                 <p class="fs-15 fw-500" style="color: #efefef;">aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tristique felis tellus, quis aliquet eros mollis vel. Suspendisse sit amet enim metus. Proin consequat sagittis.</p>
 
@@ -421,42 +424,42 @@ get_header(); ?>
 
 <!-- Section - 07 (Clients)  -->
 <section class="py-5" style="background: url('<?php bloginfo('template_directory'); ?>/assets/images/group47.png') center center no-repeat">
-    <p class="fs-30 fw-600 px-lg-5" style="color: #fff;">Our Partners and Clients</p>
+    <p class="fs-30 fw-600 px-lg-5 ps-md-4 ps-3" style="color: #fff;">Our Partners and Clients</p>
     <div class="row m-0" style="padding-left: clamp(50px,7vw,88px) ; padding-right: clamp(50px,7vw,88px) ; ">
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client1.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client2.png" class="client-img" alt="">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-sm-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/client3.png" class="client-img" alt="">
         </div>
     </div>

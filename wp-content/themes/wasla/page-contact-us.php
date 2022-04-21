@@ -47,24 +47,87 @@ get_header(); ?>
 
 <!-- Section - 03 (form) -->
 <section>
-    <div class="position-relative"  style="background: url('<?php bloginfo('template_directory'); ?>/assets/images/events-inner.png') center center no-repeat ;background-size: cover; padding-bottom: clamp(50px,12vw,167px);">
+    <div class="position-relative" style="background: url('<?php bloginfo('template_directory'); ?>/assets/images/contact-image.png') center center no-repeat ;background-size: cover; padding-bottom: clamp(50px,12vw,167px);">
         <div class="events-inner-overlay"></div>
-        <div class="position-relative align-items-center d-flex flex-column">
-            
-            <div class="event-inner-white text-center py-5">
-              
-                    <p class="fs-30 fw-600">About the Event</p>
-                    <hr class="about-underline mx-auto">
-                    <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et porttitor mauris. Quisque convallis urna ac lectus pulvinar vulputate. Interdum et malesuada fames ac ante ipsum primis. </p>
-                    <p class="fs-22 fw-600">Name </p>
-                    <p class="fs-18">Summer event 2022 - vulputate rutrum</p>
-                    <p class="fs-22 fw-600">Date </p>
-                    <p class="fs-18">Friday 25th Februar 2022</p>
-                    <p class="fs-22 fw-600">Place </p>
-                    <p class="fs-18">No 3408, placerat nulla posuere</p>
-               
+        <div class="row position-relative align-items-center d-flex flex-column m-0">
+
+            <div class="contact-inner-white text-center pt-5 px-5" style="padding-bottom: 114px;">
+                <p class="fs-25 fw-bold text-start" style="color: rgba(0, 0, 0, 0.95); padding-bottom: 79px;">Send Us a Message</p>
+
+                <form>
+                    <div class="mb-3 text-start">
+                        <label for="exampleInputName" class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">
+                            <p>Name</p>
+                        </label>
+                        <input type="name" class="form-control form-input" id="exampleInputName">
+                    </div>
+                    <div class="row" style="padding-bottom: 63px;">
+                        <div class="col-sm">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputPhone" class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">
+                                    <p>Phone</p>
+                                </label>
+                                <input type="name" class="form-control form-input" id="exampleInputPhone">
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputEmail1" class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">
+                                    <p>Email address</p>
+                                </label>
+                                <input type="email" class="form-control form-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-start">
+                        <p class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">Contact</p>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="radio" name="age">
+                            <label for="age1">
+                                <p class="fs-16 fw-500 m-0 ms-3" style=" color: rgba(35, 35, 35, 0.71);">President - president@gmail.com</p>
+                            </label>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="radio" name="age">
+                            <label for="age2">
+                                <p class="fs-16 fw-500 m-0 ms-3" style=" color: rgba(35, 35, 35, 0.71);">Secretary - secretary@gmail.com</p>
+                            </label>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="radio" name="age">
+                            <label for="age3">
+                                <p class="fs-16 fw-500 m-0 ms-3" style=" color: rgba(35, 35, 35, 0.71);">Editor - editor@gmail.com</p>
+                            </label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="mb-3 text-start" style="padding: 63px 0;">
+                        <label for="exampleInputMessage" class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">
+                            <p>Message</p>
+                        </label>
+
+                        <div class="form-floating">
+                            <textarea class="form-control form-input" id="floatingTextarea2" style="height: 100px"></textarea>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row ps-3">
+                        <button type="submit" class="btn submit-btn">Submit</button>
+                    </div>
+
+                </form>
 
             </div>
+
+
         </div>
 
 

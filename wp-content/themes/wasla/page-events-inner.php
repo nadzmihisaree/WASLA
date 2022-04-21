@@ -18,7 +18,7 @@ get_header(); ?>
             <p class="fs-25 fw-600 text-center" style="color: #fff;">Feb 25, 2022 12.00 PM</p>
 
             <div class="event-inner-white text-center py-5">
-                <div style="padding: 0 115px;">
+                <div class="mx-auto" style="max-width: 639px;">
                     <p class="fs-30 fw-600">About the Event</p>
                     <hr class="about-underline mx-auto">
                     <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et porttitor mauris. Quisque convallis urna ac lectus pulvinar vulputate. Interdum et malesuada fames ac ante ipsum primis. </p>

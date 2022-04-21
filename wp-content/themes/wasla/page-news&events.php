@@ -130,18 +130,18 @@ get_header(); ?>
 <!--/ Section - 02 (Events)  -->
 
 <!-- Section - 03 (News)  -->
-<section class="container" style="margin-top: clamp(50px,7vw,93px); margin-bottom: clamp(50px,10vw,144px);">
+<section class="container px-5" style="margin-top: clamp(50px,7vw,93px); margin-bottom: clamp(50px,10vw,144px);">
     <p class="fs-30 fw-600 pt-5" style="color: #403c34">Events</p>
     <p class="fs-15 fw-500 pb-5" style="color: rgba(100, 100, 100, 0.91);">upcoming events</p>
 
     <div class="row">
-        <div class="col">
+        <div class=" col-sm mb-5 mb-sm-0">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/Rectangle310-1.png" class="news-event-img1" alt="">
         </div>
-        <div class="col" style="padding-left: clamp(50px,9vw,131px);">
+        <div class=" col-sm news-event-para1">
             <p class="fs-22 fw-600 mb-1" style="color: rgba(25, 25, 25, 0.94);">Proin luctus rutrum dolo lacinia</p>
             <p class="fs-16 fw-600 mb-5" style="color: #aeaeae;">22 Jully 2022</p>
-            <p class="fs-15 fw-500 mb-4" style="color: #696969; max-width: 476px;text-align: justify;">Mauris facilisis libero vitae ex hendrerit, sit amet malesuada justo egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit lorem ut ligula facilisis, sit amet pulvinar eros efficitur. Phasellus sed tempus velit, in porttitor dui. Suspendisse efficitur ligula ac facilisis iaculis. Suspendisse congue, mi et tincidunt condimentum, arcu dolor efficitur nibh, id suscipit libero magna in sem. </p>
+            <p class="fs-15 fw-500 mb-4" style="color: #696969; text-align: justify;">Mauris facilisis libero vitae ex hendrerit, sit amet malesuada justo egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit lorem ut ligula facilisis, sit amet pulvinar eros efficitur. Phasellus sed tempus velit, in porttitor dui. Suspendisse efficitur ligula ac facilisis iaculis. Suspendisse congue, mi et tincidunt condimentum, arcu dolor efficitur nibh, id suscipit libero magna in sem. </p>
 
             <a href="#" class="fs-15 fw-600" style="color: rgba(48, 48, 48, 0.77); text-decoration: none">Read more
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow.svg" class="read-more-arrow ms-2" alt="" />
@@ -154,14 +154,14 @@ get_header(); ?>
 <!--/ Section - 03 (News)  -->
 
 <!-- Section - 04 (News2)  -->
-<section class="container" style="margin-bottom: clamp(50px,10vw,145px);">
+<section class="container px-5" style="margin-bottom: clamp(50px,10vw,145px);">
 
     <div class="row">
 
-        <div class="col" style="padding-left: clamp(50px,9vw,131px);">
+        <div class="col-sm news-event-para1 mb-5 mb-sm-0">
             <p class="fs-22 fw-600 mb-1" style="color: rgba(25, 25, 25, 0.94);">Donec nec volutpat ante Suspendisse</p>
             <p class="fs-16 fw-600 mb-5" style="color: #aeaeae;">22 December 2021</p>
-            <p class="fs-15 fw-500 mb-4" style="color: #696969; max-width: 476px;text-align: justify;">Mauris facilisis libero vitae ex hendrerit, sit amet malesuada justo egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit lorem ut ligula facilisis, sit amet pulvinar eros efficitur. Phasellus sed tempus velit, in porttitor dui. Suspendisse efficitur ligula ac facilisis iaculis. Suspendisse congue, mi et tincidunt condimentum.
+            <p class="fs-15 fw-500 mb-4" style="color: #696969;text-align: justify;">Mauris facilisis libero vitae ex hendrerit, sit amet malesuada justo egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean blandit lorem ut ligula facilisis, sit amet pulvinar eros efficitur. Phasellus sed tempus velit, in porttitor dui. Suspendisse efficitur ligula ac facilisis iaculis. Suspendisse congue, mi et tincidunt condimentum.
             </p>
 
             <a href="#" class="fs-15 fw-600" style="color: rgba(48, 48, 48, 0.77); text-decoration: none">Read more
@@ -169,7 +169,7 @@ get_header(); ?>
             </a>
 
         </div>
-        <div class="col ps-5">
+        <div class="col-sm news-event-pic2 align-items-end d-flex flex-column">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/Rectangle310.png" class="news-event-img2" alt="">
         </div>
     </div>
@@ -177,10 +177,10 @@ get_header(); ?>
 <!--/ Section - 04 (News2)  -->
 
 <!-- Section - 05 (Old Topics)  -->
-<section class="container">
+<section class="container px-5">
     <p class="fs-15 fw-600 pt-4" style="color: rgba(48, 48, 48, 0.71); border-top: 1px solid rgba(0, 0, 0, 0.1); margin-right: clamp(50px,8vw,115px); margin-bottom: clamp(50px,5vw,66px);">Old Topics</p>
 
-    <div class="swiper mySwiper4" style="margin-right: clamp(50px,8vw,115px);">
+    <div class="swiper mySwiper4" >
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class=" position-relative text-start">
