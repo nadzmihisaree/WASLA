@@ -94,7 +94,7 @@ get_header(); ?>
             </p>
             <div class="row" style="margin-top: clamp(50px, 8vw, 100px)">
                 <div class="col-md-5">
-                    <a class="" href="#">
+                    <a class="" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
                         <button class="nav-butt">BECOME A MEMBER</button>
                     </a>
                 </div>

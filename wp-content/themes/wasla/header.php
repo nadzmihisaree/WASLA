@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
 
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Paprika&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 
@@ -42,7 +42,7 @@
 
     <!-- NavBar  -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top">
+        <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top" style="transition: all 0.3s;">
             <div class="container-fluid">
                 <a href="#">
                     <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" class="logo" />
@@ -56,7 +56,23 @@
                     </div>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location'  => 'main-menu',
+                        'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                        'container'       => '',
+                        'container_class' => '',
+                        'menu_class'      => 'navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center',
+                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'          => new WP_Bootstrap_Navwalker(),
+                    ));
+                    ?>
+                    <!-- <li class="nav-item"> -->
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
+                            <button class="nav-butt">BECOME A MEMBER</button>
+                        </a>
+                    <!-- </li> -->
+                    <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
                         <li class="nav-item">
                             <a class="nav-link active me-lg-4" href="#">Home</a>
                         </li>
@@ -70,11 +86,12 @@
                             <a class="nav-link me-lg-4" href="#">Contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
                                 <button class="nav-butt">BECOME A MEMBER</button>
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
+
                 </div>
             </div>
         </nav>
