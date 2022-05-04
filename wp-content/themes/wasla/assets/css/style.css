@@ -614,6 +614,9 @@ body {
     -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
 }
+.mySwiper5 .swiper-slide:hover .person_name{
+    font-size: 20px;
+}
 /* #news-container .latest-news:nth-of-type(2) .latest-news-col-1{
     order: 1;
 } */

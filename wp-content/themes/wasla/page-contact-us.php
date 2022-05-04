@@ -14,7 +14,7 @@ get_header(); ?>
     <div class="d-flex justify-content-end banner flex-column" style="background: url('<?php bloginfo('template_directory'); ?>/assets/images/contact-banner.png') top center no-repeat ; background-size: cover;">
 
         <p class="fs-40 fw-600 text-center" style="color: #fff">Contact Us</p>
-        <p class="fs-16 fw-500 text-center align-self-center" style=" color: #f4f4f4; max-width: 554px">In ultrices a est eget commodo. Morbi luctus eu ipsum.In ultrices a est eget commodo. </p>
+        <p class="fs-16 fw-500 text-center align-self-center" style=" color: #f4f4f4; max-width: 554px"><?php the_field('main_banner_content') ?></p>
     </div>
 </section>
 <!--/ Section - 01 (Banner) -->
@@ -23,7 +23,21 @@ get_header(); ?>
 <!-- Section - 02 (contacts) -->
 <section style="background-color: rgba(196, 196, 196, 0.09);">
     <div class="row align-items-center container mx-auto" style="min-height: 490px;">
-        <div class="col-12 col-sm-4 d-flex justify-content-center pt-5 pt-sm-0">
+
+        <?php if (have_rows('contact_repeater')) : ?>
+            <?php while (have_rows('contact_repeater')) : the_row(); ?>
+
+                <div class="col-12 col-sm-4 d-flex justify-content-center pt-5 pt-sm-0">
+                    <div class="px-4 align-items-center d-flex flex-column justify-content-between" style="height: clamp(205px,17vw,253px);  border-bottom: solid 1px rgba(0, 0, 0, 0.25);">
+                        <img src="<?php the_sub_field('icon')?>" style=" width: 100px; height: 100px;" alt="">
+                        <p class="mb-4 fs-18 fw-500" style="color: rgba(35, 35, 35, 0.91);"><?php the_sub_field('content')?></p>
+                    </div>
+                </div>
+
+            <?php endwhile; ?>
+        <?php endif; ?>
+
+        <!-- <div class="col-12 col-sm-4 d-flex justify-content-center pt-5 pt-sm-0">
             <div class="px-4 align-items-center d-flex flex-column justify-content-between" style="height: clamp(205px,17vw,253px);  border-bottom: solid 1px rgba(0, 0, 0, 0.25);">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/4n-contact.png" style=" width: 100px; height: 100px;" alt="">
                 <p class="mb-4 fs-18 fw-500" style="color: rgba(35, 35, 35, 0.91);">+94 77 88 93 465</p>
@@ -34,13 +48,7 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/4n-contact.png" style=" width: 100px; height: 100px;" alt="">
                 <p class="mb-4 fs-18 fw-500" style="color: rgba(35, 35, 35, 0.91);">+94 77 88 93 465</p>
             </div>
-        </div>
-        <div class="col-12 col-sm-4 d-flex justify-content-center pt-5 pt-sm-0">
-            <div class="px-4 align-items-center d-flex flex-column justify-content-between" style="height: clamp(205px,17vw,253px);  border-bottom: solid 1px rgba(0, 0, 0, 0.25);">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/4n-contact.png" style=" width: 100px; height: 100px;" alt="">
-                <p class="mb-4 fs-18 fw-500" style="color: rgba(35, 35, 35, 0.91);">+94 77 88 93 465</p>
-            </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!--/ Section - 02 (contacts) -->

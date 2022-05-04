@@ -32,6 +32,10 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style-lg.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style-sm.css" />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

@@ -36,11 +36,16 @@ get_header(); ?>
 <!-- Section - 03 (Our Vision) -->
 <section class="py-5" style="background-color: rgba(196, 196, 196, 0.09);">
     <div class="mx-auto" style="max-width: 649px;">
-        <p class="fs-40 fw-600" style="color: #373634;text-align: center;">Our Vision</p>
-        <p class="fs-20 mb-5" style="color: #413e39;; font-family: 'Paprika', cursive; text-align: center;"><?php the_field("vision") ?></p>
+        <div data-aos="zoom-in-up" class="">
+            <p class="fs-40 fw-600" style="color: #373634;text-align: center;">Our Vision</p>
+            <p class="fs-20 mb-5" style="color: #413e39;; font-family: 'Paprika', cursive; text-align: center;"><?php the_field("vision") ?></p>
 
-        <p class="fs-40 fw-600" style="color: #373634;text-align: center;">Our Mission</p>
-        <p class="fs-20" style="color: #413e39;; font-family: 'Paprika', cursive; text-align: center;"><?php the_field("mission") ?></p>
+        </div>
+        <div data-aos="zoom-in-up" class="">
+            <p class="fs-40 fw-600" style="color: #373634;text-align: center;">Our Mission</p>
+            <p class="fs-20" style="color: #413e39;; font-family: 'Paprika', cursive; text-align: center;"><?php the_field("mission") ?></p>
+
+        </div>
 
 
     </div>
@@ -65,7 +70,7 @@ get_header(); ?>
                             <img src="<?php the_sub_field("person_image") ?>" alt="" />
 
                             <div class="position-absolute bottom-0 w-100 px-3">
-                                <p class="fs-18 fw-bold" style="color: #fff;"><?php the_sub_field("person_name") ?></p>
+                                <p class="person_name fs-18 fw-bold" style="color: #fff;"><?php the_sub_field("person_name") ?></p>
                                 <p class="fs-15" style="color: #fff;"><?php the_sub_field("designation") ?></p>
                             </div>
 

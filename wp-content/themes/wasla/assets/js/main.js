@@ -13,6 +13,10 @@ var swiper = new Swiper(".mySwiper1", {
     pagination: {
         el: ".BPAG",
     },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
 });
 
@@ -315,3 +319,6 @@ $(document).ready(function () {
         loadMore(initShow);
     });
 });
+
+// AOS Animation-------------
+  AOS.init();
