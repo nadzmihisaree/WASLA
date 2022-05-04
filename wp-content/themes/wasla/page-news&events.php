@@ -219,7 +219,7 @@ get_header(); ?>
             <div class="latest-news-col-1 col-sm mb-5 mb-sm-0">
                 <img src="<?php the_field("news_main_image") ?>" class="news-event-img1" alt="">
             </div>
-            <div data-aos="fade-up" class="latest-news-col-2 col-sm news-event-para1">
+            <div data-aos="fade-up" data-aos-duration="3000" class="latest-news-col-2 col-sm news-event-para1">
                 <p class="fs-22 fw-600 mb-1" style="color: rgba(25, 25, 25, 0.94);"><?php the_title()?></p>
                 <p class="fs-16 fw-600 mb-5" style="color: #aeaeae;"><?php the_field("date") ?></p>
                 <p class="fs-15 fw-500 mb-4 text-trunkater" style="color: #696969; text-align: justify;"><?php echo wp_strip_all_tags(get_field("news_content"), true);  ?></p>
