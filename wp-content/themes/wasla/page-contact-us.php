@@ -54,7 +54,10 @@ get_header(); ?>
             <div class="contact-inner-white text-center pt-5 px-5" style="padding-bottom: 114px;">
                 <p class="fs-25 fw-bold text-start" style="color: rgba(0, 0, 0, 0.95); padding-bottom: 79px;">Send Us a Message</p>
 
-                <form>
+                <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]') ?>
+
+                <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]') ?>
+                <!-- <form>
                     <div class="mb-3 text-start">
                         <label for="exampleInputName" class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">
                             <p>Name</p>
@@ -123,7 +126,7 @@ get_header(); ?>
                         <button type="submit" class="btn submit-btn">Submit</button>
                     </div>
 
-                </form>
+                </form> -->
 
             </div>
 

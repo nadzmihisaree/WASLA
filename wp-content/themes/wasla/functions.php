@@ -189,3 +189,10 @@ function register_navwalker(){
 	require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+
+// option tab----------------
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}

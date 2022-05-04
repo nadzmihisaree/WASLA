@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width" />
     <?php wp_head(); ?>
-    <title>WASLA - HOME</title>
+    <title>WASLA</title>
 
 
     <!-- Bootstrap CSS -->
@@ -44,7 +44,7 @@
     <header>
         <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top" style="transition: all 0.3s;">
             <div class="container-fluid">
-                <a href="#">
+                <a href="<?php bloginfo('url') ?>">
                     <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" class="logo" />
                 </a>
 

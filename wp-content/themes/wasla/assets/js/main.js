@@ -49,6 +49,7 @@ var swiper2 = new Swiper(".mySwiper2", {
 var swiper3 = new Swiper(".mySwiper3", {
     slidesPerView: 1,
     spaceBetween: 15,
+    centeredSlides: true,
     // slidesPerGroup: 3,
     loop: true,
     // loopFillGroupWithBlank: true,
