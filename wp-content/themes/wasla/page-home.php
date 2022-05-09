@@ -323,7 +323,7 @@ get_header(); ?>
 <section>
     <p class="fs-30 fw-600 py-5 px-3 px-lg-5" style="color: #403c34">Gallery</p>
     <div class="row m-0 px-sm-5">
-        <div data-aos="zoom-in" class="col-12 col-sm-6 px-0 pe-sm-3 position-relative mb-4 mb-lg-0 px-0 mb-md-0">
+        <div data-aos="fade-up" class="col-12 col-sm-6 px-0 pe-sm-3 position-relative mb-4 mb-lg-0 px-0 mb-md-0">
             <div class="gallery-overlay"></div>
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/group42.png" class="gallery-img" alt="" />
             <div class="row position-absolute bottom-0 w-100 px-3">
@@ -338,7 +338,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <div data-aos="zoom-in" class="col-12 col-sm-6 px-0 ps-sm-3 position-relative">
+        <div data-aos="fade-up" class="col-12 col-sm-6 px-0 ps-sm-3 position-relative">
             <div class="gallery-overlay"></div>
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/group41.png" class="gallery-img" alt="" />
             <div class="row position-absolute bottom-0 w-100 px-3">
@@ -371,7 +371,7 @@ get_header(); ?>
     </div>
 
     <div class="row px-sm-5">
-        <div data-aos="zoom-in" class="col-12 col-sm-5 pe-sm-3 position-relative mb-4 mb-lg-0">
+        <div data-aos="fade-up" class="col-12 col-sm-5 pe-sm-3 position-relative mb-4 mb-lg-0">
             <div class="position-relative">
                 <div class="gallery-overlay w-100"></div>
                 <img src="<?php the_field("news_1_image") ?>" class="news-img" alt="" />
@@ -387,7 +387,7 @@ get_header(); ?>
 
         <div class="col-sm  position-relative mb-4 mb-lg-0">
 
-            <div data-aos="zoom-in" class=" position-relative mb-4">
+            <div data-aos="fade-up" class=" position-relative mb-4">
                 <div class="gallery-overlay w-100"></div>
                 <img src="<?php the_field("news_2_image") ?>" class="news-img2" alt="" />
                 <div class="position-absolute top-0 w-100 px-3">
@@ -399,7 +399,7 @@ get_header(); ?>
 
             </div>
 
-            <div data-aos="zoom-in" class=" position-relative">
+            <div data-aos="fade-up" class=" position-relative">
                 <div class="gallery-overlay w-100"></div>
                 <img src="<?php the_field("news_3_image") ?>" class="news-img2" alt="" />
                 <div class="position-absolute top-0 w-100 px-3">
@@ -414,7 +414,7 @@ get_header(); ?>
 
         </div>
 
-        <div data-aos="zoom-in" class="col-sm ps-sm-3 position-relative">
+        <div data-aos="fade-up" class="col-sm ps-sm-3 position-relative">
             <div class="position-relative">
                 <div class="gallery-overlay w-100"></div>
                 <img src="<?php the_field("news_4_image") ?>" class="news-img" alt="" />
