@@ -66,7 +66,12 @@ var swiper3 = new Swiper(".mySwiper3", {
             slidesPerView: 1.5,
             spaceBetween: 30
         }
-    }
+    },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+
 });
 
 

@@ -23,9 +23,9 @@ get_header(); ?>
     <div class="row m-0">
         <div class="col-sm" style="padding-left: clamp(50px,7vw,92px);padding-right: clamp(50px,7vw,85px);">
             <p class="fs-40 fw-600" style="color: #373634;"><?php the_field("heading") ?></p>
-            <p class="fs-15" style="color: #413e39; text-align:justify"><?php the_field("paragraph") ?></p>
+            <p data-aos="fade-up" class="fs-15" style="color: #413e39; text-align:justify"><?php the_field("paragraph") ?></p>
         </div>
-        <div class="col-sm p-0">
+        <div data-aos="fade-left" class="col-sm p-0">
             <img src="<?php the_field("image") ?>" class="about1" alt="">
         </div>
     </div>

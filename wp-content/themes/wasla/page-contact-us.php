@@ -64,7 +64,7 @@ get_header(); ?>
 
                 <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]') ?>
 
-                <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]') ?>
+                <?php //echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]') ?>
                 <!-- <form>
                     <div class="mb-3 text-start">
                         <label for="exampleInputName" class="fs-18 fw-600" style="color: rgba(0, 0, 0, 0.8);">
