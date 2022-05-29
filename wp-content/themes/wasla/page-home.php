@@ -19,14 +19,29 @@ get_header(); ?>
                 <?php while (have_rows('home_banner')) : the_row(); ?>
 
                     <div class="swiper-slide" style="background: url('<?php the_sub_field("banner_image") ?>') center center no-repeat">
-                        <div class="pl-pr-10">
-                            <p class="fs-50 fw-bold" style="color: #fcfcfc; max-width: 755px">
-                                <?php the_sub_field("header") ?>
-                            </p>
-                            <p class="fs-20 fw-500" style="color: #fff; max-width: 402px">
-                                <?php the_sub_field("sub_header") ?>
-                            </p>
-                        </div>
+                        <!-- <div class="row"> -->
+                          
+
+                            <!-- <div class="col"> -->
+
+                                <div class="pl-pr-10">
+                                    <p class="fs-50 fw-bold" style="color: #fcfcfc; max-width: 755px">
+                                        <?php the_sub_field("header") ?>
+                                    </p>
+                                    <p class="fs-20 fw-500" style="color: #fff; max-width: 402px">
+                                        <?php the_sub_field("sub_header") ?>
+                                    </p>
+                                </div>
+                            <!-- </div> -->
+
+                        <!-- </div> -->
+
+                        <div class="bottom-0 d-grid mb-2 ms-3 position-absolute d-none d-sm-block" data-aos="fade-up">
+                                <div class=""><a href=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/fb.png" class="social-icon-banner"  alt=""></a></div>
+                                <div class=""><a href=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/in.png" class="social-icon-banner" alt=""></a></div>
+                                <div class=""><a href=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/twitter.png" class="social-icon-banner"  alt=""></a></div>
+                            </div>
+
                     </div>
 
 
@@ -60,7 +75,7 @@ get_header(); ?>
 
 <section class="pl-pr-10">
     <div data-aos="fade-up" class="row justify-content-end m-0" style="transform: translateY(-150px); position: relative; z-index: 1">
-        <div class="col-lg-5 banner-box py-4 ps-4 pe-5">
+        <div class="banner-box col-lg-5 col-md-5 pe-5 ps-4 py-4">
             <p class="fs-18 fw-bold" style="color: #575151">Next Event</p>
             <p class="fs-18 fw-500" style="color: #595959"><?php the_field("next_event_introduction") ?></p>
             <a href="" style="text-decoration: none;">
@@ -321,7 +336,20 @@ get_header(); ?>
 
 <!-- Section - 06 (Gallery)  -->
 <section>
-    <p class="fs-30 fw-600 py-5 px-3 px-lg-5" style="color: #403c34">Gallery</p>
+    <!-- <p class="fs-30 fw-600 py-5 px-3 px-lg-5" style="color: #403c34">Gallery</p> -->
+    
+    <div class="row py-5 align-items-center">
+        <div class="col">
+            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">Gallery</p>
+        </div>
+        <div class="col-auto px-5">
+            <a class="text-decoration-none" href="<?php bloginfo('url'); ?>/gallery/">
+                <p class="fs-14" style="color: #4e4d4c;">View Gallery <img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow-white.svg" alt=""></p>
+            </a>
+        </div>
+    </div>
+
+
     <div class="row m-0 px-sm-5">
         <div data-aos="fade-up" class="col-12 col-sm-6 px-0 pe-sm-3 position-relative mb-4 mb-lg-0 px-0 mb-md-0">
             <div class="gallery-overlay"></div>

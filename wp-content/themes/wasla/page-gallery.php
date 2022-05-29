@@ -128,7 +128,7 @@ get_header(); ?>
 <section class="">
     <div class="d-flex justify-content-center mt-5" style=" margin-bottom: clamp(50px,11vw,167px);">
         <button id="load-more" class="load-more gallery-butt fs-20 fw-600 text-center">
-            Load More
+            <p>Load More</p>
         </button>
     </div>
 </section>

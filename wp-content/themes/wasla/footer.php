@@ -11,13 +11,13 @@
                          <!-- Section - 01 (header) -->
                          <div class="row pt-5">
                              <div class="col-12 col-sm-2">
-                                 <a href="#">
+                                 <a href="<?php bloginfo('url') ?>">
                                      <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" class="logo" />
                                  </a>
                              </div>
                              <div class="col-sm align-items-center d-flex flex-column pt-5">
                                  <p class="fs-33 fw-500" style="color: #ffd15a;">Please Fill Up the Membership Form Below</p>
-                                 <p class="fs-18" style=" color: rgba(255, 255, 255, 0.71);">Membership opens the door to all possibilities...</p>
+                                 <p class="fs-18" style=" color: rgba(255, 255, 255, 0.71); font-family: 'Paprika', cursive;">Membership opens the door to all possibilities...</p>
                              </div>
                          </div>
 
@@ -315,15 +315,27 @@
              <p class="fs-20 fw-500" style="color: #b5b5b5">
                  <?php the_field("footer_line_1", 'option') ?>
              </p>
-             <p class="fs-40 fw-500 mb-5" style="color: #f9f9f9"> <?php the_field("footer_line_2", 'option') ?></p>
+             <p class="fs-40 fw-500" style="color: #f9f9f9"> <?php the_field("footer_line_2", 'option') ?></p>
          </div>
 
          <div class="col-lg-3">
              <button class="footer-but " data-bs-toggle="modal" data-bs-target="#ModalBox1">
                  <p class="fw-600 fs-14 m-0">BECOME A MEMBER</p>
+
              </button>
+
+
+         </div>
+
+     </div>
+
+     <div class="justify-content-end row">
+         <div class="col-lg-3 ">
+             <p class="footer-p fs-25 fw-600">Mission</p>
          </div>
      </div>
+
+
 
      <div class="row footer-row">
 
@@ -332,7 +344,7 @@
 
                  <div class="col-lg-3 d-flex py-lg-0 py-4">
                      <img src="<?php the_sub_field("logo") ?>" class="footer-img" />
-                     <p class="footer-p3 fw-500 fs-18" style="width: 192px">
+                     <p class="footer-p3 fw-500 " style="width: 192px">
                          <?php the_sub_field("text") ?>
                      </p>
                  </div>
@@ -352,8 +364,8 @@
              <p class="footer-p3 fw-500 fs-18 m-0">wasla@gmail.com</p>
          </div> -->
          <div class="col-lg-3 py-lg-0 py-4">
-             <p class="footer-p fs-25 fw-600">Mission</p>
-             <p class="footer-p3 fw-500 fs-18 m-0">
+             <!-- <p class="footer-p fs-25 fw-600">Mission</p> -->
+             <p class="footer-p3 fw-500 m-0">
                  <?php the_field("mission", 'option') ?>
              </p>
          </div>

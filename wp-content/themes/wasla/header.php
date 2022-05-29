@@ -20,10 +20,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-
-
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Paprika&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
 
     <!-- Style sheets -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" />
@@ -72,9 +71,9 @@
                     ));
                     ?>
                     <!-- <li class="nav-item"> -->
-                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
-                            <button class="nav-butt">BECOME A MEMBER</button>
-                        </a>
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
+                        <button class="nav-butt">BECOME A MEMBER</button>
+                    </a>
                     <!-- </li> -->
                     <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
                         <li class="nav-item">

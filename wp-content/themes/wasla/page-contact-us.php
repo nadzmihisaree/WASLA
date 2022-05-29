@@ -60,7 +60,7 @@ get_header(); ?>
         <div class="row position-relative align-items-center d-flex flex-column m-0">
 
             <div class="contact-inner-white text-center pt-5 px-5" style="padding-bottom: 114px;">
-                <p class="fs-25 fw-bold text-start" style="color: rgba(0, 0, 0, 0.95); padding-bottom: 79px;">Send Us a Message</p>
+                <p class="fs-25 fw-bold text-start mb-5" style="color: rgba(0, 0, 0, 0.95); ">Send Us a Message</p>
 
                 <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]') ?>
 
