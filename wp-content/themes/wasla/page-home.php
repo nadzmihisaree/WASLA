@@ -220,7 +220,7 @@ get_header(); ?>
 
 
             <?php
-            $loop = new WP_Query(array('post_type' => 'event', 'posts_per_page' => -1));
+            $loop = new WP_Query(array('post_type' => 'event', 'posts_per_page' => -1));  
             $postCount = $loop->post_count;
             while ($loop->have_posts()) : $loop->the_post(); ?>
                 <div class="swiper-slide my-auto">
@@ -338,7 +338,7 @@ get_header(); ?>
 <section>
     <!-- <p class="fs-30 fw-600 py-5 px-3 px-lg-5" style="color: #403c34">Gallery</p> -->
     
-    <div class="row py-5 align-items-center">
+    <div class="row py-5 align-items-center m-0">
         <div class="col">
             <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">Gallery</p>
         </div>
