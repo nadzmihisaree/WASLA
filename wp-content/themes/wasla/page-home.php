@@ -456,6 +456,7 @@ get_header(); ?>
                 <p class="fs-15 fw-500" style="color: #efefef;"><?php the_field("news_4_paragraph") ?></p>
 
 
+
             </div>
         </div>
     </div>
