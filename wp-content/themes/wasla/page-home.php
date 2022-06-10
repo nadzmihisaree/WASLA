@@ -340,7 +340,7 @@ get_header(); ?>
     
     <div class="row py-5 align-items-center m-0">
         <div class="col">
-            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">Gallery</p>
+            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">Gallery1</p>
         </div>
         <div class="col-auto px-5">
             <a class="text-decoration-none" href="<?php bloginfo('url'); ?>/gallery/">
