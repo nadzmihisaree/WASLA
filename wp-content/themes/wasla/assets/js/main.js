@@ -327,6 +327,6 @@ $(document).ready(function () {
 
 // AOS Animation-------------
   AOS.init({
-      once: true,
+      once: false,
       
   });
