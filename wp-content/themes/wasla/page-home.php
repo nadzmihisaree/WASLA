@@ -103,7 +103,7 @@ get_header(); ?>
             <div class="row" style="margin-top: clamp(50px, 8vw, 100px)">
                 <div class="col-md-5">
                     <a class="" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
-                        <button class="nav-butt">BECOME A MEMBERqqqq</button>
+                        <button class="nav-butt">BECOME A MEMBER</button>
                     </a>
                 </div>
                 <div class="col-md-auto align-items-center d-flex">
@@ -340,7 +340,7 @@ get_header(); ?>
     
     <div class="row py-5 align-items-center m-0">
         <div class="col">
-            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">Gallery1</p>
+            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">Gallery</p>
         </div>
         <div class="col-auto px-5">
             <a class="text-decoration-none" href="<?php bloginfo('url'); ?>/gallery/">
