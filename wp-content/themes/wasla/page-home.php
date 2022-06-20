@@ -103,7 +103,7 @@ get_header(); ?>
             <div class="row" style="margin-top: clamp(50px, 8vw, 100px)">
                 <div class="col-md-5">
                     <a class="" data-bs-toggle="modal" data-bs-target="#ModalBox1" href="#">
-                        <button class="nav-butt">BECOME A MEMBER</button>
+                        <button class="nav-butt">BECOME A MEMBERqqqq</button>
                     </a>
                 </div>
                 <div class="col-md-auto align-items-center d-flex">
