@@ -393,7 +393,7 @@ get_header(); ?>
         </div>
         <div class="col-auto px-5">
             <a class="text-decoration-none" href="<?php bloginfo('url'); ?>/news-and-events/">
-                <p class="fs-14" style="color: #4e4d4c;">View News11 <img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow-white.svg" alt=""></p>
+                <p class="fs-14" style="color: #4e4d4c;">View News<img src="<?php bloginfo('template_directory'); ?>/assets/images/next-arrow-white.svg" alt=""></p>
             </a>
         </div>
     </div>
