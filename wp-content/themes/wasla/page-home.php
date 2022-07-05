@@ -389,7 +389,7 @@ get_header(); ?>
 <section class="overflow-hidden" style="padding-bottom: clamp(50px,15vw,211px);">
     <div class="row pb-5 align-items-center" style="padding-top: clamp(50px,10vw,137px);">
         <div class="col">
-            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">News & Updates</p>
+            <p class="fs-30 fw-600 px-3 px-lg-5" style="color: #403c34; ">News & Updates11</p>
         </div>
         <div class="col-auto px-5">
             <a class="text-decoration-none" href="<?php bloginfo('url'); ?>/news-and-events/">
